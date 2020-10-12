@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Diplomata&family=Emilys+Candy&family=IM+Fell+English&family=Londrina+Solid&family=Ultra&display=swap");
+/* font-family: 'Diplomata', cursive;
+font-family: 'Emilys Candy', cursive;
+font-family: 'IM Fell English', serif;
+font-family: 'Londrina Solid', cursive;
+font-family: 'Ultra', serif; */
+
+body {
+  font-family: "IM Fell English", serif;
+  font-size: 1.6rem;
+  color: black;
+}
+/* titre en haut de page */
+body > article > header > h1 {
+  font-family: "Emilys Candy", cursive;
+  text-align: center;
+  font-size: 6rem;
+  text-transform: uppercase;
+}
+body > article > header > h1 > span {
+  font-size: 1.2rem;
+}
+body > article > header > .slogan {
+  font-size: 1.2rem;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+}
+/* section "Nouveau à La Manu" */
+body > article > aside.ads-manu > p {
+  color: beige;
+  font-size: 1.4rem;
+}
+body > article > aside.ads-manu > h2 {
+  font-family: "Londrina Solid", cursive;
+  font-size: 2.4rem;
+  line-height: 1em;
+}
+/* Section Météo */
+body > article > aside.ads-meteo > h2 {
+  font-family: "Ultra", serif;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+body > article > aside.ads-meteo > ul > li {
+  font-variant-caps: all-small-caps;
+}
+/* Section alchimi */
+body > article > aside.ads-zodiac > h2 {
+  font-style: italic;
+}
+
+/* Tampon édition 2020 */
+body > article > aside.ads-num > div > p:nth-child(1)::first-letter {
+  text-transform: uppercase;
+}
+body > article > aside.ads-num > div {
+  background-color: beige !important;
+}
+body > article > aside.ads-num > div > p:nth-child(2) {
+  font-family: "Ultra", serif;
+}
+
+/* Titre article niffleur */
+body > article > main > div > h2 > span {
+  text-transform: capitalize;
+  text-align: center;
+}
+body > article > main > div > h2 > span:nth-child(1) {
+  font-family: "Londrina Solid", cursive;
+  font-size: 7.5rem;
+}
+body > article > main > div > h2 > span:nth-child(2) {
+  font-family: "Diplomata", cursive;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+body > article > main > div > h2 > span:nth-child(3) {
+  font-size: 3.2rem;
+}
+/* lettrine texte article */
+body > article > main > div > p:nth-child(2)::first-letter {
+  font-family: "Diplomata", cursive;
+  color: beige;
+  font-size: 4rem;
+}
+/* dernier paragraphe de l'article */
+body > article > main > div > p:nth-child(5) {
+  text-align: right;
+  font-weight: bold;
+}
+/* Pied de page */
+body > article > footer > h2 {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+body > article > footer > p {
+  font-family: "Diplomata", cursive;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+body > article > footer > p > strong {
+  font-family: "Londrina Solid", cursive;
+  font-size: 1.2rem;
+}
+/* Liens pied de page */
+body > article > footer > p > a,
+body > article > footer > nav > a:nth-child(1),
+body > article > footer > nav > a:nth-child(2),
+body > article > footer > nav > a:nth-child(3),
+body > article > footer > nav > a:nth-child(4) {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+/* Modification des liens au survol */
+body > article > footer > p > a:hover,
+body > article > footer > nav > a:hover {
+  text-decoration: underline;
+}
+body > article > footer > nav > a:nth-child(1) > span {
+  font-size: 6rem;
+}
+body > article > footer > nav > a:nth-child(2) > span {
+  font-family: "Diplomata", cursive;
+  font-size: 3rem;
+}
+body > article > footer > nav > a:nth-child(3) {
+  font-family: "Londrina Solid", cursive;
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+body > article > footer > nav > a:nth-child(3) > span {
+  font-family: "IM Fell English", serif;
+  font-size: 6rem;
+  font-weight: normal;
+}
+body > article > footer > nav > a:nth-child(4) {
+  font-family: "Emilys Candy", cursive;
+  font-size: 3rem;
+}
+body > article > footer > nav > a:nth-child(4) > span {
+  font-family: "Diplomata", cursive;
+  font-size: 3rem;
+}
+/* classes CSS pour opti:
+.diplomata
+.emilys
+.IMFell
+.londrina
+.font-size-3rem
+font-size-6rem
+
+.black
+.beige
+.center
+.bold
+.capitalize
+.x.xrem
+.underline
+.uppercase
+line-height-1rem
+*/
