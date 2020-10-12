@@ -1,9 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Diplomata&family=Emilys+Candy&family=IM+Fell+English&family=Londrina+Solid&family=Ultra&display=swap");
-/* font-family: 'Diplomata', cursive;
-font-family: 'Emilys Candy', cursive;
-font-family: 'IM Fell English', serif;
-font-family: 'Londrina Solid', cursive;
-font-family: 'Ultra', serif; */
 
 body {
   font-family: "IM Fell English", serif;
@@ -54,7 +49,7 @@ body > article > aside.ads-num > div > p:nth-child(1)::first-letter {
   text-transform: uppercase;
 }
 body > article > aside.ads-num > div {
-  background-color: beige !important;
+  color: beige !important;
 }
 body > article > aside.ads-num > div > p:nth-child(2) {
   font-family: "Ultra", serif;
@@ -62,7 +57,7 @@ body > article > aside.ads-num > div > p:nth-child(2) {
 
 /* Titre article niffleur */
 body > article > main > div > h2 > span {
-  text-transform: capitalize;
+  text-transform: uppercase;
   text-align: center;
 }
 body > article > main > div > h2 > span:nth-child(1) {
@@ -91,19 +86,21 @@ body > article > main > div > p:nth-child(5) {
 /* Pied de page */
 body > article > footer > h2 {
   text-align: center;
-  font-size: 3rem;
-  text-transform: capitalize;
-}
-body > article > footer > p {
+  font-size: 4rem;
+  text-transform: uppercase;
   font-family: "Diplomata", cursive;
-  font-size: 3rem;
-  text-align: center;
-  text-transform: capitalize;
 }
 body > article > footer > p > strong {
   font-family: "Londrina Solid", cursive;
   font-size: 1.2rem;
 }
+body > article > footer > p {
+  font-family: "Diplomata", cursive;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /* Liens pied de page */
 body > article > footer > p > a,
 body > article > footer > nav > a:nth-child(1),
@@ -145,14 +142,13 @@ body > article > footer > nav > a:nth-child(4) > span {
   font-family: "Diplomata", cursive;
   font-size: 3rem;
 }
-/* classes CSS pour opti:
+/* classes :
 .diplomata
 .emilys
 .IMFell
 .londrina
 .font-size-3rem
 font-size-6rem
-
 .black
 .beige
 .center
